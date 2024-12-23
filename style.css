@@ -1,0 +1,14 @@
+* {box-sizing: border-box;}
+.column {float: right; width: 25%; padding: 5px;}
+.header {background-color: #fb3310; color: #fff; padding: 20px; text-align: center;}
+.navbar {overflow: hidden; background-color: #fb3310; opacity: 0.8}
+.navbar a {float: left; color: #f2f2f2; padding: 14px 16px; font-size: 17px; text-decoration: none}
+.navbar a.active {background-color: #fb3310;}
+.navbar a:hover {background-color:#f2563a;}
+.row::after {content: ""; clear: both; display: table;}
+a:link {color: #880808; text-decoration: none;}
+a:visited {color: #1e140a; text-decoration: none;}
+body {margin: 0;; background-color: #FA8072; background-image: url(Background.png); background-size: cover; background-repeat: no-repeat; background-position: center; font-family: Georgia;}
+mark {background-color: #E97451; padding: 0 0.1em;}
+
+
